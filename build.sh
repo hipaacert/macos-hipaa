@@ -10,6 +10,7 @@ sudo perl -p -i -e 's/format=bsd/format=bsd mode=0640 rotate=utc compress file_m
 defaults write com.apple.CrashReporter DialogType -string "none" #Disable the crash reporter
 
 # CFR §164.308(a)(5)(ii)(A) & §164.310(c)
+sudo softwareupdate -ia #install all software updates
 defaults write com.apple.commerce AutoUpdate -bool true # Turn on app auto-update
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1 # Check for software updates daily
 defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1 # Install System data files & security updates
