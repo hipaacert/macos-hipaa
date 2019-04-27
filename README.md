@@ -3,5 +3,5 @@ This tool is designed to assist in HIPAA compliance for Apple MacOS computers. P
 
 Instructions
 * Hit `Command + Space` and type `terminal` to open.
-* In terminal, type `sh <(curl -s https://raw.githubusercontent.com/hipaacert/macos-hipaa/master/build.sh)`
+* In terminal, type `sh <(curl -s https://raw.githubusercontent.com/hipaacert/macos-hipaa/master/comply.sh)`
 * Hit return and accept the prompts to secure your machine.
